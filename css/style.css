@@ -74,6 +74,7 @@ nav ul li {
 }
 
 /* REGOLE MAIN  */
+/* REGOLE JUMBOTRON  */
 .jumbotron {
     background-color:#b4d0e7;
     width: 100%;
@@ -94,3 +95,40 @@ nav ul li {
     float: left;
 }
 
+/* REGOLE PRICE-LIST SECTION  */
+.price-list.column {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.offer {
+    width: calc(100% / 3 - 20px);
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.enterprise {
+    width: 100%;
+    height: 120px;
+    border: 1px dashed black;
+    margin-top: 30px;
+}
+
+/* REGOLE SEZIONE "TROVA PARTNER"   */
+.find-partners {
+    margin-top: 60px;
+}
+.find-partners .section-photo {
+    float: left;
+    width: 60%; 
+}
+
+.find-partners .section-photo img {
+    width: 100%;
+}
+
+.find-partners .section-text {
+    float: left;
+    width: 40%;
+    border: 1px dashed black;
+}
