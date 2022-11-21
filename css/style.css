@@ -132,3 +132,19 @@ nav ul li {
     width: 40%;
     border: 1px dashed black;
 }
+
+/* REGOLE SEZIONE FEATURES  */
+.dropbox-features {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.feature {
+    width:calc(100% / 3 - 20px);
+    height: 250px;
+    border: 1px dashed black;
+    margin: 20px 0;
+}
