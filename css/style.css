@@ -43,6 +43,10 @@ h3 {
     margin-bottom: 30px;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 /* REGOLE HEADER  */
 .header-container {
     background-color: white;
@@ -104,12 +108,12 @@ li:hover .selector {
 
 /* REGOLE BOTTONI */
 .customized-link {
-    /* display: inline-block; */
     background-color: #0061ff;
     color: white;
     padding: 6px 20px;
     border: none;
     text-decoration: none;
+    cursor: pointer;
 }
 
 /* REGOLE MAIN  */
@@ -186,6 +190,16 @@ li:hover .selector {
     vertical-align: middle;
 }
 
+.circle-selector-empty {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
 .price-list.column {
     width: 100%;
     display: flex;
@@ -238,10 +252,10 @@ li:hover .selector {
 
 /* REGOLE SEZIONE "TROVA PARTNER"   */
 .find-partners {
-    margin-top: 60px;
+    margin-top: 100px;
+    display: flex;
 }
 .find-partners .section-photo {
-    float: left;
     width: 60%; 
 }
 
@@ -250,18 +264,30 @@ li:hover .selector {
 }
 
 .find-partners .section-partner-text {
-    float: left;
     width: 40%;
-    border: 1px dashed black;
+    padding: 20px;
+}
+
+.section-partner-text a {
+    background-color: white;
+    border: 1px solid gray;
+    color: black;
 }
 
 /* REGOLE SEZIONE FEATURES  */
+.dropbox-feature-section {
+    margin-top: 100px;
+}
+
+.dropbox-feature-section h3 {
+    font-size: 1.6em;
+}
+
 .dropbox-features {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 100px;
 }
 
 .feature {
@@ -380,16 +406,29 @@ li:hover .selector {
 .section-link {
     width: 50%;
     text-align:right;
+}
 
+.section-content .section-text a {
+    background-color: white;
+    border: 1px solid gray;
+    color: black;
 }
 
 /* REGOLE SEZIONE DOMANDE FREQUENTI */
 .faq-section {
-    margin-top: 80px;
+    margin: 80px 0;
 }
 .question {
     border-top: 1px solid black;
     padding: 10px 0;
+}
+
+.answer {
+    display: none;
+}
+
+.question:hover .answer {
+    display: block;
 }
 
 /* REGOLE FOOTER  */
