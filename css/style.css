@@ -1,6 +1,6 @@
 /* REGOLE RESET  */
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -395,6 +395,7 @@ li:hover .selector {
 /* REGOLE FOOTER  */
 footer {
     background-color: black;
+    color: white;
     height: 400px;
 }
 
@@ -402,7 +403,35 @@ footer {
     width: calc(100% / 5);
     height: 200px;
     float: left;
-    border: 1px dashed white;
     margin-top: 50px;
 }
+
+.footer-column ul li {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 0.8em;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column h4 {
+    font-size: 1.2em;
+}
+
+.footer-column hr {
+    border: 0.5px solid lightgray;
+    width: 100px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.language {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
 
