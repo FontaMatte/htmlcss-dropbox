@@ -441,18 +441,46 @@ li:hover .selector {
 .faq-section {
     margin: 80px 0;
 }
+
+#faq {
+    height: 400px;
+}
+
 .question {
     border-top: 1px solid black;
+}
+
+.question-text,.answer-text {
+    width: 90%;
+    float: left;
     padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+
+.question-arrow-down,.answer-arrow-up {
+    width: 10%;
+    float: right;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
 }
 
 .answer {
     display: none;
+    margin-bottom: 1px solid black;
 }
 
-/* .question:hover .answer {
+.question:hover .answer {
     display: block;
-} */
+}
+
+.question:hover  .question-arrow-down {
+    display: none;
+}
+
+.question:hover .question-text {
+    border: none;
+}
 
 /* REGOLE FOOTER  */
 footer {
