@@ -102,7 +102,22 @@ nav ul li {
 .header-container nav ul li a {
     text-decoration: none;
     color: black;
+}
 
+.sub-menu {
+    min-width:100%;
+    background-color:lightgray;
+    position: absolute;
+    z-index: 3;
+    top: 100%;
+    left: 0;
+    display: none;
+    font-size: 0.8em;
+}
+
+.sub-menu li {
+    padding: 15px;
+    display: block;
 }
 
 .selector {
@@ -117,6 +132,26 @@ nav ul li {
 
 li:hover .selector {
    display: block;
+}
+
+li:hover .sub-menu {
+    display: block;
+}
+
+#perche-dropbox-menu:hover {
+    background-color: lightgray;
+}
+
+#funzioni-menu:hover {
+    background-color: lightgray;
+}
+
+#piani-prezzi-menu:hover {
+    background-color: lightgray;
+}
+
+.sub-menu li:hover {
+    background-color: rgb(165, 163, 163);
 }
 
 /* REGOLE BOTTONI */
