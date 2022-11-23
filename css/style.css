@@ -6,6 +6,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* REGOLE DI BASE  */
 clearfix::after {
     content:"";
     display: table;
@@ -35,6 +36,10 @@ h3 {
     font-weight:800;
 }
 
+.tm20 {
+    margin-top: 20px;
+}
+
 .mb20 {
     margin-bottom: 20px;
 }
@@ -45,6 +50,10 @@ h3 {
 
 .mb30 {
     margin-bottom: 30px;
+}
+
+.p10 {
+    padding: 10px;
 }
 
 .inline-block {
@@ -133,14 +142,11 @@ li:hover .selector {
 .jumbotron-left {
     width: 40%;
     float: left;
-    margin-top: 30px;
 }
 
 .jumbotron-right {
     width: 60%;
-    height: 200px;
     float: left;
-    margin-top: 30px;
 }
 
 .main-title {
@@ -417,10 +423,14 @@ li:hover .selector {
     text-align:right;
 }
 
-.section-content .section-text a {
+.customized-link.white {
     background-color: white;
-    border: 1px solid gray;
     color: black;
+    cursor: pointer;
+}
+
+.section-text h2 {
+    color: #691228;
 }
 
 /* REGOLE SEZIONE DOMANDE FREQUENTI */
