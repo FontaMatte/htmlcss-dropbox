@@ -130,22 +130,13 @@ nav ul li {
     display: none;
 }
 
-li:hover .selector {
+li:hover .selector,
+li:hover .sub-menu {
    display: block;
 }
 
-li:hover .sub-menu {
-    display: block;
-}
-
-#perche-dropbox-menu:hover {
-    background-color: lightgray;
-}
-
-#funzioni-menu:hover {
-    background-color: lightgray;
-}
-
+#perche-dropbox-menu:hover,
+#funzioni-menu:hover,
 #piani-prezzi-menu:hover {
     background-color: lightgray;
 }
