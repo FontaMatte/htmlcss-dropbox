@@ -417,10 +417,13 @@ li:hover .selector {
     text-align:right;
 }
 
-.section-content .section-text a {
+.customized-link.white {
     background-color: white;
-    border: 1px solid gray;
     color: black;
+}
+
+.section-text h2 {
+    color: #691228;
 }
 
 /* REGOLE SEZIONE DOMANDE FREQUENTI */
