@@ -7,7 +7,7 @@
 }
 
 /* REGOLE DI BASE  */
-clearfix::after {
+.clearfix::after {
     content:"";
     display: table;
     clear: both;
@@ -97,6 +97,7 @@ nav ul li {
 
 .main-logo {
     vertical-align: middle;
+    text-decoration: none;
 }
 
 .header-container nav ul li a {
@@ -198,8 +199,8 @@ li:hover .sub-menu {
 }
 
 /* REGOLE PRICE-LIST SECTION  */
-.price-list-section {
-    margin-top: 200px;
+#price-list-section {
+    margin-top: 250px;
 }
 
 .price-list-section h2 {
